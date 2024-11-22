@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.min.js"></script>
+  <title>ログイン</title>
+</head>
+
+  <body>
+  <header class="header">
+    <h1 class="header-logo">N</h1>
+  </header>
+
+<div class="crown">
+  <img src="/Users/konishiyuma/Desktop/まとめ/Login/Gold crown.png" alt="王冠金" width="100px">
+</div>  
+
+<section>
+  <form action="https://script.google.com/macros/s/AKfycbwhWh1EzDQqgtYOuvmriLweHFJ_-qqhOlQfPO79URWOhNirWrsW2yDzSEJaKtmyJWB_IQ/exec" class="form" method="post" id="registrationForm">
+    <div class="name-box">
+      <label for="name" class="name">ID</label>
+      <input type="text" id="name" name="name" class="text-box" required><br>
+    </div>
+    <div class="name-box">
+      <label for="nickname" class="name">Name</label>
+      <input type="text" id="nickname" class="text-box" name="nickname" required><br>
+    </div>
+    <div class="name-box">
+      <label for="campus" class="name">Campus</label>
+      <select id="campus" class="text-box" name="campus" required>
+        <option value="新宿">新宿</option>
+        <option value="秋葉原">秋葉原</option>
+        <option value="錦糸町駅北口">錦糸町駅北口</option>
+        <option value="浦田西口">浦田西口</option>
+        <option value="池袋">池袋</option>
+        <option value="町田">町田</option>
+        <option value="横浜">横浜</option>
+        <option value="相模原橋本">相模原橋本</option>
+        <option value="大宮">大宮</option>
+        <option value="横浜">横浜</option>
+        <option value="松戸">松戸</option>
+        <option value="名古屋栄">名古屋栄</option>
+        <option value="横浜">横浜</option>
+        <option value="金沢">金沢</option>
+        <option value="天王寺">天王寺</option>
+        <option value="江坂">江坂</option>
+        <option value="神戸三宮">神戸三宮</option>
+        <option value="奈良西大寺">奈良西大寺</option>
+        <option value="福岡薬院">福岡薬院</option>
+      </select><br>
+    </div>
+    <div>※ID、名前は2~32文字の間で入力してください</div>
+    <input type="hidden" name="action" value="login">
+    <input type="submit" value="ログイン" class="text" id="button">
+  </form>
+</section>    
+  <script src="script.js"></script>
+
+</body>  
+</html>
+

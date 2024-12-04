@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+}
+
+.header{
+  background-color: #6cf;
+}
+
+.header-logo{
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  padding: 15PX 0 15px 30px;
+}
+
+.point-box{
+  width: 50%;
+  text-align: center;
+}
+.points{
+  font-size: 80px;
+  margin: 30px 0 0 0;
+}
+.tentative{
+  margin-top: 70px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.mission button {
+  margin-left: 10px ;
+}
+.checkmark {
+  color: green;
+  font-weight: bold;
+  display: none;
+}
+.checkmark.visible {
+  display: inline;
+}.containe{
+  display: flex;
+}
+.mission-box{
+  border: #000 1px solid;
+  display: flex;
+  padding: 30px 20px;
+}

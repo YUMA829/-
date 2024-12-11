@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+}
+
+.header{
+  background-color: #6cf;
+}
+
+.header-logo{
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  padding: 15PX 0 15px 30px;
+}
+
+.main{
+  text-align: center;
+  margin-top: 200px;
+  font-size: 25px;
+}
+
+.btn{
+  text-align: center;
+  margin-top: 50px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  border: #000 solid 2px;
+  padding: 10px 80px;
+  font-size: 30px;
+}

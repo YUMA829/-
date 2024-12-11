@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+.header{
+  background-color: #6cf;
+}
+
+.header-logo{
+  margin: 0;
+  color: white;
+  font-size: 50px;
+  padding: 15PX 0 15px 30px;
+}
+
+.form{
+  width: 100%; /* フォーム全体の幅を設定 */
+  max-width: 400px; /* 必要に応じて最大幅を設定 */
+  margin: 0 auto; /* 中央揃え */
+
+}
+.new{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 23px;
+}
+
+.name-box{
+  margin: 50px 0 50px 0;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+
+.name{
+  font-size: 30px;
+  min-width: 140px;
+}
+
+.text-box{
+  flex: 1;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
+
+.text{
+  text-align: center;
+  padding: 15px;
+  width: 200px;
+  background-color: #99ffff;
+  border: none;
+  margin: 50px 100px 0 100px;
+}
